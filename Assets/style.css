@@ -19,9 +19,9 @@
     --platinum: #e0e0e0ff;
 }
 
-body{
-    background-color: var(--platinum);
-}
+/* body{
+    background: linear-gradient(to left, #8e9eab, #eef2f3);
+} */
 
 /* --- LOGO --- */
 .Logo1{
@@ -54,4 +54,79 @@ header{
 .navbar-list a{
     color: var(--platinum);
     font-size: 15px;
+}
+
+/* MAIN */
+
+main{
+    background: linear-gradient(to top, #8e9eab, #eef2f3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: var(--black);
+}
+
+/* HERO */
+
+#hero{
+    max-width: 1200px;
+    margin-top: 65px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.hero-info h1{
+    font-size: 48px;
+    font-weight: 800;
+    width: 80%;
+    min-width: 500px;
+}
+
+.hero-info p{
+    font-size: 14px;
+    width: 90%;
+}
+
+.hero-info a{
+    background-color: var(--black);
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    color: var(--platinum);
+    width: 120px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.hero-image1{
+    background-color: #8e9eab;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-image1 p{
+    font-size: 15px;
+    color: var(--platinum);
+}
+
+.hero-bottom{
+    padding: 25px;
+    color: var(--platinum);
+    max-width: 600px;
 }
