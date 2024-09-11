@@ -126,8 +126,10 @@ main{
     color: var(--platinum);
 }
 
+/* FOOTER */
+
 .hero-footer{
-    padding: 25px;
+    padding: 70px;
     color: var(--platinum);
     max-width: 600px;
 }
@@ -151,7 +153,6 @@ main{
 
 .info-cards-container{
     display: flex;
-    justify-content: space-around;
     gap: 20px;
 }
 
@@ -189,54 +190,44 @@ main{
     max-width: 1200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    gap: 20px;
 }
 
 #contact h2{
-    padding: 70px 0;
+    padding: 60px 0;
     font-size: 2rem;
     font-weight: 800;
 }
 
-.personas{
-    display: flex;
-    justify-content:space-between;
-    gap: 20px;
-}
-
 .persona{
-    /* background-color: #8e9eab; */
-    /* width: 300px;
-    height: 400px; */
-    padding: 40px 30px;
-    /* border-radius: 10px; */
     display: flex;
     flex-direction: column;
+}
+
+.personas{
+    display: flex;
     gap: 20px;
-}
-
-.persona img{
-    display: flex;
-    justify-content: flex-start;
-    width: 25px;
-}
-
-.persona p{
-    justify-content: flex-end;
-    color: var(--platinum);
-}
-
-.persona-datos{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-flex-direction: column;
 }
 
 .persona-1{
+    padding: 20px 0px;
+}
+
+.persona-datos-1{
+    gap: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: left;
+}
+
+.persona-datos-1 img{
+    width: 25px;
+}
+
+.persona-datos-1 p{
+    color: var(--platinum);
+}
+
+.image-datos-logo img{
+    width: 210px;
+    height: 150px;
 }
