@@ -34,7 +34,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 10px;
     height: 50px;
 }
 
@@ -73,8 +73,8 @@ main{
 
 #hero{
     max-width: 1200px;
-    margin-top: 65px;
-    padding: 70px 0;
+    margin-top: 50px;
+    padding: 65px 0;
     display: flex;
     justify-content: center;
     align-items: center;
